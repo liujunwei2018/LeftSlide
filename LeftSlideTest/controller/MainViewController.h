@@ -10,5 +10,6 @@
 
 
 @interface MainViewController : UIViewController
+// "我的" 按钮点击事件
 @property (nonatomic, copy) void(^leftItemClick)(void);
 @end

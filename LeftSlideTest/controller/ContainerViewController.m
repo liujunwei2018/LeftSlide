@@ -70,6 +70,7 @@ CGFloat const kMaxSpeed = 800;
 #pragma mark - setup
 
 - (void)setupUI {
+    // 添加子控制器,子控制器可以使用父控制器的navigationController
     [self addChildViewController:self.mainVC];
     [self addChildViewController:self.leftVC];
     [self.view addSubview:self.leftVC.view];
