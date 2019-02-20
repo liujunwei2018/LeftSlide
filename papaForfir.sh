@@ -18,20 +18,21 @@ scheme="LeftSlideTest"
 export_method='ad-hoc'
 
 #指定项目地址
-workspace_path="$project_path/XNPaPaWallet.xcworkspace"
+#workspace_path="$project_path/XNPaPaWallet.xcworkspace"
 #指定输出路径
 output_path="/Users/liujunwei/Desktop/builds/"
 #指定输出归档文件地址
 archive_path="$output_path/LeftSlideTest_${now}.xcarchive"
 #指定输出ipa地址
-ipa_path="$output_path/LeftSlideTest_${now}.ipa"
+#ipa_path="$output_path/LeftSlideTest_${now}.ipa"
+ipa_path="/Users/liujunwei/Desktop/builds/"
 #指定输出ipa名称
 ipa_name="LeftSlideTest_${now}.ipa"
 #获取执行命令时的commit message
 commit_msg="$1"
 
 #输出设定的变量值
-echo "===workspace path: ${workspace_path}==="
+#echo "===workspace path: ${workspace_path}==="
 echo "===archive path: ${archive_path}==="
 echo "===ipa path: ${ipa_path}==="
 echo "===export method: ${export_method}==="
