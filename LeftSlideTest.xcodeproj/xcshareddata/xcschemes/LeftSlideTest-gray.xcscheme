@@ -86,6 +86,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "LeftSlideTest-gray"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
