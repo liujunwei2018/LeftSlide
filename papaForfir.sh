@@ -30,7 +30,7 @@ export_method='ad-hoc'
 #指定输出路径
 output_path="/Users/liujunwei/Desktop/builds/"
 #指定输出归档文件地址
-archive_path="$output_path/LeftSlideTest_${now}.xcarchive"
+archive_path="$output_path/${scheme}_${now}.xcarchive"
 #指定输出ipa地址
 ipa_path="$output_path/LeftSlideTest_${now}.ipa"
 #ipa_path="/Users/liujunwei/Desktop/builds/"
