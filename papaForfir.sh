@@ -12,7 +12,15 @@ project_path="/Users/liujunwei/Desktop/Test/JenkinsTest/LeftSlideTest"
 now=$(date +"%Y_%m_%d_%H_%M_%S")
 
 #指定项目的scheme名称
+if [[ $1 == "production" ]]; then
+scheme="LeftSlideTest-prod"
+elif [[ $1 == "gray" ]]; then
+scheme="LeftSlideTest-gray"
+elif [[ $1 == "debug" ]]; then
+scheme="LeftSlideTest-debug"
+elif [[ $1 == "development" ]]; then
 scheme="LeftSlideTest"
+fi
 
 #指定打包所使用的输出方式，目前支持app-store, package, ad-hoc, enterprise, development, 和developer-id，即xcodebuild的method参数
 export_method='ad-hoc'
@@ -37,6 +45,7 @@ echo "===archive path: ${archive_path}==="
 echo "===ipa path: ${ipa_path}==="
 echo "===export method: ${export_method}==="
 echo "===commit msg: $1==="
+echo "**************** ${scheme} *******************"
 
 #先清空前一次build
 fastlane gym --scheme ${scheme} --clean --configuration ${configuration} --archive_path ${archive_path} --export_method ${export_method} --output_directory ${output_path} --output_name ${ipa_name}
