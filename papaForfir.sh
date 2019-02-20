@@ -35,7 +35,7 @@ archive_path="$output_path/LeftSlideTest_${now}.xcarchive"
 #ipa_path="$output_path/LeftSlideTest_${now}.ipa"
 ipa_path="/Users/liujunwei/Desktop/builds/"
 #指定输出ipa名称
-ipa_name="LeftSlideTest_${now}.ipa"
+ipa_name="${scheme}_${now}.ipa"
 #获取执行命令时的commit message
 commit_msg="$1"
 
