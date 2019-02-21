@@ -28,12 +28,11 @@ export_method='ad-hoc'
 #指定项目地址
 #workspace_path="$project_path/XNPaPaWallet.xcworkspace"
 #指定输出路径
-output_path="/Users/liujunwei/Desktop/builds/"
+output_path="/Users/liujunwei/Desktop/builds"
 #指定输出归档文件地址
-archive_path="$output_path/LeftSlideTest_${now}.xcarchive"
+archive_path="$output_path/${scheme}_${now}.xcarchive"
 #指定输出ipa地址
-#ipa_path="$output_path/LeftSlideTest_${now}.ipa"
-ipa_path="/Users/liujunwei/Desktop/builds/"
+ipa_path="$output_path/${scheme}_${now}.ipa"
 #指定输出ipa名称
 ipa_name="${scheme}_${now}.ipa"
 #获取执行命令时的commit message
@@ -48,8 +47,8 @@ echo "===commit msg: $1==="
 echo "**************** ${scheme} *******************"
 
 #先清空前一次build
-fastlane gym --scheme ${scheme} --clean --configuration ${configuration} --archive_path ${archive_path} --export_method ${export_method} --output_directory ${output_path} --output_name ${ipa_name}
-
+#fastlane gym --scheme ${scheme} --clean --configuration ${configuration} --archive_path ${archive_path} --export_method ${export_method} --output_directory ${output_path} --output_name ${ipa_name}
+fastlane gym --scheme ${scheme} --clean --configuration ${configuration} --export_method ${export_method} --output_directory ${output_path} --output_name ${ipa_name}
 #上传到fir
 fir publish ${ipa_path} -T "c02b42079bd176dac4955777ac97171a" -c "${commit_msg}"
 

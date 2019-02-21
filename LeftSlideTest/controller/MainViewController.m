@@ -19,6 +19,16 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = UIColor.redColor;
     [self setupNavigationView];
+    
+    if (TargetType == 1) {
+        self.view.backgroundColor = UIColor.yellowColor;
+    }
+    if (TargetType == 2) {
+        self.view.backgroundColor = UIColor.blueColor;
+    }
+    if (TargetType == 3) {
+        self.view.backgroundColor = UIColor.greenColor;
+    }
 }
 
 - (void)setupNavigationView {

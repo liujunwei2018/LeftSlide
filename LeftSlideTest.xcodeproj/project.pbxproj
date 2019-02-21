@@ -18,6 +18,33 @@
 		285A0599221A54A400CCF4BA /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A0598221A54A400CCF4BA /* ContainerViewController.m */; };
 		285A059C221A54B000CCF4BA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A059B221A54B000CCF4BA /* MainViewController.m */; };
 		285A059F221A54BB00CCF4BA /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A059E221A54BB00CCF4BA /* LeftViewController.m */; };
+		28FD0E29221D408A001FBCD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A0569221A545700CCF4BA /* ViewController.m */; };
+		28FD0E2A221D408A001FBCD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A0574221A545900CCF4BA /* main.m */; };
+		28FD0E2B221D408A001FBCD0 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A0598221A54A400CCF4BA /* ContainerViewController.m */; };
+		28FD0E2C221D408A001FBCD0 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A059E221A54BB00CCF4BA /* LeftViewController.m */; };
+		28FD0E2D221D408A001FBCD0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A059B221A54B000CCF4BA /* MainViewController.m */; };
+		28FD0E2E221D408A001FBCD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A0566221A545700CCF4BA /* AppDelegate.m */; };
+		28FD0E31221D408A001FBCD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285A0570221A545900CCF4BA /* LaunchScreen.storyboard */; };
+		28FD0E32221D408A001FBCD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285A056E221A545900CCF4BA /* Assets.xcassets */; };
+		28FD0E33221D408A001FBCD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285A056B221A545700CCF4BA /* Main.storyboard */; };
+		28FD0E3B221D409A001FBCD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A0569221A545700CCF4BA /* ViewController.m */; };
+		28FD0E3C221D409A001FBCD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A0574221A545900CCF4BA /* main.m */; };
+		28FD0E3D221D409A001FBCD0 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A0598221A54A400CCF4BA /* ContainerViewController.m */; };
+		28FD0E3E221D409A001FBCD0 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A059E221A54BB00CCF4BA /* LeftViewController.m */; };
+		28FD0E3F221D409A001FBCD0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A059B221A54B000CCF4BA /* MainViewController.m */; };
+		28FD0E40221D409A001FBCD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A0566221A545700CCF4BA /* AppDelegate.m */; };
+		28FD0E43221D409A001FBCD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285A0570221A545900CCF4BA /* LaunchScreen.storyboard */; };
+		28FD0E44221D409A001FBCD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285A056E221A545900CCF4BA /* Assets.xcassets */; };
+		28FD0E45221D409A001FBCD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285A056B221A545700CCF4BA /* Main.storyboard */; };
+		28FD0E4D221D422B001FBCD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A0569221A545700CCF4BA /* ViewController.m */; };
+		28FD0E4E221D422B001FBCD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A0574221A545900CCF4BA /* main.m */; };
+		28FD0E4F221D422B001FBCD0 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A0598221A54A400CCF4BA /* ContainerViewController.m */; };
+		28FD0E50221D422B001FBCD0 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A059E221A54BB00CCF4BA /* LeftViewController.m */; };
+		28FD0E51221D422B001FBCD0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A059B221A54B000CCF4BA /* MainViewController.m */; };
+		28FD0E52221D422B001FBCD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A0566221A545700CCF4BA /* AppDelegate.m */; };
+		28FD0E55221D422B001FBCD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285A0570221A545900CCF4BA /* LaunchScreen.storyboard */; };
+		28FD0E56221D422B001FBCD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 285A056E221A545900CCF4BA /* Assets.xcassets */; };
+		28FD0E57221D422B001FBCD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285A056B221A545700CCF4BA /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +87,12 @@
 		285A059B221A54B000CCF4BA /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		285A059D221A54BB00CCF4BA /* LeftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		285A059E221A54BB00CCF4BA /* LeftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		28FD0E37221D408A001FBCD0 /* LeftSlideTest-gray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LeftSlideTest-gray.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FD0E38221D408B001FBCD0 /* LeftSlideTest-gray-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LeftSlideTest-gray-Info.plist"; path = "/Users/liujunwei/Desktop/Test/学习/左滑控制器/LeftSlideTest/LeftSlideTest-gray-Info.plist"; sourceTree = "<absolute>"; };
+		28FD0E49221D409A001FBCD0 /* LeftSlideTest-prod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LeftSlideTest-prod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FD0E4A221D409A001FBCD0 /* LeftSlideTest-prod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LeftSlideTest-prod-Info.plist"; path = "/Users/liujunwei/Desktop/Test/学习/左滑控制器/LeftSlideTest/LeftSlideTest-prod-Info.plist"; sourceTree = "<absolute>"; };
+		28FD0E5B221D422B001FBCD0 /* LeftSlideTest-debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LeftSlideTest-debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FD0E5C221D422B001FBCD0 /* LeftSlideTest-debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LeftSlideTest-debug-Info.plist"; path = "/Users/liujunwei/Desktop/Test/学习/左滑控制器/LeftSlideTest/LeftSlideTest-debug-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +117,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		28FD0E2F221D408A001FBCD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FD0E41221D409A001FBCD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FD0E53221D422B001FBCD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -94,6 +148,9 @@
 				285A057D221A545A00CCF4BA /* LeftSlideTestTests */,
 				285A0588221A545A00CCF4BA /* LeftSlideTestUITests */,
 				285A0563221A545700CCF4BA /* Products */,
+				28FD0E38221D408B001FBCD0 /* LeftSlideTest-gray-Info.plist */,
+				28FD0E4A221D409A001FBCD0 /* LeftSlideTest-prod-Info.plist */,
+				28FD0E5C221D422B001FBCD0 /* LeftSlideTest-debug-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +160,9 @@
 				285A0562221A545700CCF4BA /* LeftSlideTest.app */,
 				285A057A221A545A00CCF4BA /* LeftSlideTestTests.xctest */,
 				285A0585221A545A00CCF4BA /* LeftSlideTestUITests.xctest */,
+				28FD0E37221D408A001FBCD0 /* LeftSlideTest-gray.app */,
+				28FD0E49221D409A001FBCD0 /* LeftSlideTest-prod.app */,
+				28FD0E5B221D422B001FBCD0 /* LeftSlideTest-debug.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -211,6 +271,57 @@
 			productReference = 285A0585221A545A00CCF4BA /* LeftSlideTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		28FD0E27221D408A001FBCD0 /* LeftSlideTest-gray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FD0E34221D408A001FBCD0 /* Build configuration list for PBXNativeTarget "LeftSlideTest-gray" */;
+			buildPhases = (
+				28FD0E28221D408A001FBCD0 /* Sources */,
+				28FD0E2F221D408A001FBCD0 /* Frameworks */,
+				28FD0E30221D408A001FBCD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LeftSlideTest-gray";
+			productName = LeftSlideTest;
+			productReference = 28FD0E37221D408A001FBCD0 /* LeftSlideTest-gray.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28FD0E39221D409A001FBCD0 /* LeftSlideTest-prod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FD0E46221D409A001FBCD0 /* Build configuration list for PBXNativeTarget "LeftSlideTest-prod" */;
+			buildPhases = (
+				28FD0E3A221D409A001FBCD0 /* Sources */,
+				28FD0E41221D409A001FBCD0 /* Frameworks */,
+				28FD0E42221D409A001FBCD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LeftSlideTest-prod";
+			productName = LeftSlideTest;
+			productReference = 28FD0E49221D409A001FBCD0 /* LeftSlideTest-prod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28FD0E4B221D422B001FBCD0 /* LeftSlideTest-debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FD0E58221D422B001FBCD0 /* Build configuration list for PBXNativeTarget "LeftSlideTest-debug" */;
+			buildPhases = (
+				28FD0E4C221D422B001FBCD0 /* Sources */,
+				28FD0E53221D422B001FBCD0 /* Frameworks */,
+				28FD0E54221D422B001FBCD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LeftSlideTest-debug";
+			productName = LeftSlideTest;
+			productReference = 28FD0E5B221D422B001FBCD0 /* LeftSlideTest-debug.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -249,6 +360,9 @@
 				285A0561221A545700CCF4BA /* LeftSlideTest */,
 				285A0579221A545A00CCF4BA /* LeftSlideTestTests */,
 				285A0584221A545A00CCF4BA /* LeftSlideTestUITests */,
+				28FD0E27221D408A001FBCD0 /* LeftSlideTest-gray */,
+				28FD0E39221D409A001FBCD0 /* LeftSlideTest-prod */,
+				28FD0E4B221D422B001FBCD0 /* LeftSlideTest-debug */,
 			);
 		};
 /* End PBXProject section */
@@ -275,6 +389,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FD0E30221D408A001FBCD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FD0E31221D408A001FBCD0 /* LaunchScreen.storyboard in Resources */,
+				28FD0E32221D408A001FBCD0 /* Assets.xcassets in Resources */,
+				28FD0E33221D408A001FBCD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FD0E42221D409A001FBCD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FD0E43221D409A001FBCD0 /* LaunchScreen.storyboard in Resources */,
+				28FD0E44221D409A001FBCD0 /* Assets.xcassets in Resources */,
+				28FD0E45221D409A001FBCD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FD0E54221D422B001FBCD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FD0E55221D422B001FBCD0 /* LaunchScreen.storyboard in Resources */,
+				28FD0E56221D422B001FBCD0 /* Assets.xcassets in Resources */,
+				28FD0E57221D422B001FBCD0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +451,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				285A058A221A545A00CCF4BA /* LeftSlideTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FD0E28221D408A001FBCD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FD0E29221D408A001FBCD0 /* ViewController.m in Sources */,
+				28FD0E2A221D408A001FBCD0 /* main.m in Sources */,
+				28FD0E2B221D408A001FBCD0 /* ContainerViewController.m in Sources */,
+				28FD0E2C221D408A001FBCD0 /* LeftViewController.m in Sources */,
+				28FD0E2D221D408A001FBCD0 /* MainViewController.m in Sources */,
+				28FD0E2E221D408A001FBCD0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FD0E3A221D409A001FBCD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FD0E3B221D409A001FBCD0 /* ViewController.m in Sources */,
+				28FD0E3C221D409A001FBCD0 /* main.m in Sources */,
+				28FD0E3D221D409A001FBCD0 /* ContainerViewController.m in Sources */,
+				28FD0E3E221D409A001FBCD0 /* LeftViewController.m in Sources */,
+				28FD0E3F221D409A001FBCD0 /* MainViewController.m in Sources */,
+				28FD0E40221D409A001FBCD0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FD0E4C221D422B001FBCD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FD0E4D221D422B001FBCD0 /* ViewController.m in Sources */,
+				28FD0E4E221D422B001FBCD0 /* main.m in Sources */,
+				28FD0E4F221D422B001FBCD0 /* ContainerViewController.m in Sources */,
+				28FD0E50221D422B001FBCD0 /* LeftViewController.m in Sources */,
+				28FD0E51221D422B001FBCD0 /* MainViewController.m in Sources */,
+				28FD0E52221D422B001FBCD0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,9 +644,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FDHEHFYGH9;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"TargetType=0",
+				);
 				INFOPLIST_FILE = LeftSlideTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -471,6 +660,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ios.jenkinsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -480,9 +670,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FDHEHFYGH9;
+				GCC_PREPROCESSOR_DEFINITIONS = "TargetType=0";
 				INFOPLIST_FILE = LeftSlideTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -490,6 +682,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ios.jenkinsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -569,6 +762,150 @@
 			};
 			name = Release;
 		};
+		28FD0E35221D408A001FBCD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FDHEHFYGH9;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"TargetType=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/LeftSlideTest-gray-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.jenkinsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		28FD0E36221D408A001FBCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FDHEHFYGH9;
+				GCC_PREPROCESSOR_DEFINITIONS = "TargetType=1";
+				INFOPLIST_FILE = "$(SRCROOT)/LeftSlideTest-gray-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.jenkinsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		28FD0E47221D409A001FBCD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FDHEHFYGH9;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"TargetType=2",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/LeftSlideTest-prod-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.jenkinsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		28FD0E48221D409A001FBCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FDHEHFYGH9;
+				GCC_PREPROCESSOR_DEFINITIONS = "TargetType=2";
+				INFOPLIST_FILE = "$(SRCROOT)/LeftSlideTest-prod-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.jenkinsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		28FD0E59221D422B001FBCD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FDHEHFYGH9;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"TargetType=3",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/LeftSlideTest-debug-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.jenkinsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		28FD0E5A221D422B001FBCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FDHEHFYGH9;
+				GCC_PREPROCESSOR_DEFINITIONS = "TargetType=3";
+				INFOPLIST_FILE = "$(SRCROOT)/LeftSlideTest-debug-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.jenkinsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -604,6 +941,33 @@
 			buildConfigurations = (
 				285A0595221A545A00CCF4BA /* Debug */,
 				285A0596221A545A00CCF4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FD0E34221D408A001FBCD0 /* Build configuration list for PBXNativeTarget "LeftSlideTest-gray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FD0E35221D408A001FBCD0 /* Debug */,
+				28FD0E36221D408A001FBCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FD0E46221D409A001FBCD0 /* Build configuration list for PBXNativeTarget "LeftSlideTest-prod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FD0E47221D409A001FBCD0 /* Debug */,
+				28FD0E48221D409A001FBCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FD0E58221D422B001FBCD0 /* Build configuration list for PBXNativeTarget "LeftSlideTest-debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FD0E59221D422B001FBCD0 /* Debug */,
+				28FD0E5A221D422B001FBCD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
