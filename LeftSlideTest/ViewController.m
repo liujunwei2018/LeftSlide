@@ -18,6 +18,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor purpleColor];
+    if (TargetType == 1) {
+        self.view.backgroundColor = UIColor.yellowColor;
+    }
+    if (TargetType == 2) {
+        self.view.backgroundColor = UIColor.blueColor;
+    }
+    if (TargetType == 3) {
+        self.view.backgroundColor = UIColor.greenColor;
+    }
 }
 
 
