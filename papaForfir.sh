@@ -47,8 +47,8 @@ echo "===commit msg: $1==="
 echo "**************** ${scheme} *******************"
 
 #先清空前一次build
-#fastlane gym --scheme ${scheme} --clean --configuration ${configuration} --archive_path ${archive_path} --export_method ${export_method} --output_directory ${output_path} --output_name ${ipa_name}
-fastlane gym --scheme ${scheme} --clean --configuration ${configuration} --export_method ${export_method} --output_directory ${output_path} --output_name ${ipa_name}
+fastlane gym --scheme ${scheme} --clean --configuration ${configuration} --archive_path ${archive_path} --export_method ${export_method} --output_directory ${output_path} --output_name ${ipa_name}
+
 #上传到fir
 fir publish ${ipa_path} -T "c02b42079bd176dac4955777ac97171a" -c "${commit_msg}"
 
