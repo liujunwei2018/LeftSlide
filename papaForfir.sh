@@ -7,7 +7,7 @@ export FASTLANE_XCODEBUILD_SETTINGS_TIMEOUT=120
 SECONDS=0
 
 #假设脚本放置在与项目相同的路径下
-project_path="/Users/liujunwei/Desktop/Test/JenkinsTest/LeftSlideTest"
+project_path="/Users/luo_walle/Desktop/jenkins/LeftSlide"
 #取当前时间字符串添加到文件结尾
 now=$(date +"%Y_%m_%d_%H_%M_%S")
 
@@ -28,7 +28,7 @@ export_method='ad-hoc'
 #指定项目地址
 #workspace_path="$project_path/XNPaPaWallet.xcworkspace"
 #指定输出路径
-output_path="/Users/liujunwei/Desktop/builds"
+output_path="/Users/luo_walle/Desktop/jenkins/buildout"
 #指定输出归档文件地址
 archive_path="$output_path/${scheme}_${now}.xcarchive"
 #指定输出ipa地址
